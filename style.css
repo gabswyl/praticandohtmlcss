@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+
+}
+
+:root {
+    --bg: #00030C;
+    --cinza: #C0C0C0;
+    --azul: #167BF7;
+    --darkblue: #040814;
+    --almostwhite: #F9F9F9;
+    --red: #EC2F46;
+    --branco: #FFFFFF; 
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--branco)
+}
+
+.container_principal {
+    background-image: url(Background.png);
+    background-position: no-repeat;
+    background-size: contain;
+    
+}
+
+.container_header {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+    margin: 0 0 0 5em;
+}
+
+.botao {
+    border: 0.125em solid var(--azul);
+    border-radius: 0.5;
+    padding: 0.5em;
+    width: 32em;
+    background-color: var(--azul);
+    color: var(--branco);
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 400;
+    display: block;
+    margin: 1em 0 0 5em;
+   
+}
+
+.botao_dois {
+    border: 0.125em solid var(--branco);
+    border-radius: 0.5em;
+    padding: 0.5em;
+    width: 32em;
+    color: var(--branco);
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 400;
+    font-size: 1em;
+    font-weight: 400;
+    display: block;
+    margin: 1em 0 0 5em; 
+}
+
+.titlecombo {
+    font-size: 1.75em;
+    font-weight: 700;
+    font-style: bold;
+    text-align: center;
+    margin: 5em 0em 1em 1em;
+    max-width: 65%;
+}
+
+.text_small {
+    font-size: 0.75em;
+    font-weight: 400;
+    color: var(--cinza);
+    margin: 1em 0 2em 14em; 
+}
+
+.logoalura {
+    margin: 1em 0 2em 11em;
+}
+
+.botao {
+    text-align: center;
+}
+
+/* 2 */ 
+
+.container_secundario {
+    display: flex;
+    align-items: center;
+    margin: 10em;
+}
+
+.secundario_plataformas {
+    margin: 1em 0 0 10em;  
+    
+}
+
+.desc {
+    margin: 0 0 0 5em;
+}
+
+.descricao_texto {
+    color: var(--cinza);
+    font-size: 1em;
+    max-width: 70%;
+     
+}
+
+.descricao_titulo {
+    margin: 0 0 0.25em 0em;
+    font-size: 3em;
+
+}
+
+/* 3 */
+
+.container_primaria {
+    display: flex;
+    align-items: center;
+    margin: 10em;
+}
+
+.tela {
+    margin: 0em 10em 1em 0em;
+}
+
+.desc_primaria {
+    margin: 0em 0em 0em 5em;
+}
+
+.botaocombo {
+    border: 0.125em solid var(--azul);
+    border-radius: 0.5em;
+    padding: 1em;
+    width: 10em;
+    background-color: var(--azul);
+    color: var(--branco);
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 400;
+    text-align: center;
+    margin: 1em 0 0 5em;
+}
+
+.textoprimaria {
+    margin: 0 0 2em 5em;
+    max-width: 70%;
+    color: var(--cinza);
+  
+    
+}
+
+.container_quarta {
+    display: flex;
+    align-items: center;
+    margin: 13em;
+}
+
+.title_quarta {
+    font-size: 3em;
+}
+
+.texto_quarta {
+    font-size: 1em;
+    color: var(--cinza);
+    max-width: 70%;
+}
+
+.titlecontent {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container_dispositivos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 2.5em 0em 0 23em;
+    gap: 4.25em;
+    text-align: center;
+}
+
+.content_1 h1 {
+    font-size:  3em;
+    font-style: bold;
+    line-height: 120%;
+}
+
+
+.textcontent {
+    font-size: 2em;
+    font-style: bold;
+    margin: 1em;
+    
+}
+
+
+/* secao final */ 
+
+
+.logoalura_oficial {
+    margin: 9em 0 0 0;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1em;
+    list-style-type: none;
+    margin: 3em;
+}
+
+.navbar li a {
+    color: var(--branco);
+    text-decoration: none;
+}
+
+.final_1 {
+    text-align: center;
+    color: var(--cinza);
+    
+}
+
+.final_2 {
+    text-align: center;
+    color: var(--cinza);
+    line-height: 150%;
+    margin: 1.5em;
+    
+}
+
+
+
+
+
+
+
+
+
+
